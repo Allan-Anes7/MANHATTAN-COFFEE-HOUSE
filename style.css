@@ -274,3 +274,95 @@
     background-color: #c4a47c;
     border-radius: 4px;
 }
+
+/* Adição de Regras de Mídia para Telas Menores (max-width: 850px) */
+@media only screen and (max-width: 850px) {
+
+    /* Topo da página */
+    .topo .logo-img, img {
+        width: 0%;
+        height: 50px;
+    }
+  
+    .topo div {
+      top: 20%;
+      right: 10%;
+    }
+  
+    .topo div a {
+      font-size: 14px;
+    }
+  
+    /* Seção do Banner */
+    .container-parallax1 h1 {
+      font-size: 48px;
+    }
+  
+    /* Seção de Informações */
+    .container-texto h2 {
+      font-size: 18px;
+    }
+  
+    .container-texto p {
+      line-height: 28px;
+    }
+
+    .container-parallax2 h3 {
+        font-size: 18px;
+        text-align: left;
+    }
+
+    .container-parallax3 h3 {
+        font-size: 18px;
+        text-align: left;
+    }
+  
+    /* Seção de Contatos */
+    .container-parallax4 h2 {
+      font-size: 18px;
+      text-align: left;
+    }
+
+    .container-parallax4 iframe {
+        position: absolute;
+        top: 23%;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%; 
+        height: 100vw;
+        max-height: 450px; 
+        opacity: 0.9;
+    }
+  
+    .box-contatos p {
+      line-height: 28px;
+      font-size: 14px;
+      text-align: left;
+    }
+  
+    /* Seção de Horários */
+    .container-parallax5 h2 {
+      font-size: 14px;
+    }
+  
+    .lista-horarios li h3 {
+      margin-bottom: 10px;
+      font-size: 14px;
+    }
+  
+    .lista-horarios li p,
+    .texto-marrom {
+      font-size: 14px;
+    }
+  
+    /* Rodapé */
+    .container-rodape {
+      font-size: 14px;
+      padding: 10px 0;
+    }
+  
+    .container-rodape a {
+      bottom: 60px;
+      display: none;
+    }
+  }
